@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  color: #333;
+}
+
+#title-container {
+  padding: 50px;
+  text-align: center;
+  background-color: #e9efc0;
+}
+
+#about {
+  background-color: #b4e197;
+  text-align: left;
+  padding: 1rem;
+  font-size: 1.5rem;
+  padding-bottom: 30px;
+}
+
+#about h1 {
+  text-align: center;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30rem;
+}
+
+.about-container p {
+  padding: 50px;
+  background-color: wheat;
+  font-size: 2rem;
+  max-width: 500px;
+  border-radius: 50px;
+}
+
+#services {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  background-color: #e9efc0;
+  /*   outline: 2px solid black; */
+}
+
+#clientes {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  background-color: #b4e197;
+
+  /*   outline: 2px solid black; */
+}
+
+#footer {
+  background-color: #f8ecd1;
+  color: #a7a7a7;
+  font-size: 16px;
+  min-height: 100px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+#image {
+  max-width: 70%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+.services-container {
+  font-size: 2rem;
+  padding: 20px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.service-ventas {
+  background-color: #eee;
+  border-radius: 30px;
+  margin: 30px;
+  padding: 30px;
+}
+
+.services-container i {
+  font-size: 5rem;
+}
+
+.service-atencion-cliente {
+  background-color: #eee;
+  border-radius: 30px;
+  margin: 30px;
+  padding: 30px;
+}
+
+.service-marketing {
+  background-color: #eee;
+  border-radius: 30px;
+  margin: 30px;
+  padding: 30px;
+}
+
+.service-commerce {
+  background-color: #eee;
+  border-radius: 3rem;
+  margin: 3rem;
+  padding: 3rem;
+}
+
+.clients-container {
+  margin: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+
+.row i {
+  font-size: 3rem;
+}
+
+.social {
+  display: flex;
+  gap: 1rem;
+}
+
+.row {
+  font-size: 2rem;
+  padding: 1em 1em;
+}
+.row.primary {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.mapouter {
+  height: 150px;
+  width: 500px;
+}
+.gmap_canvas {
+  height: 150px;
+  width: 500px;
+}
+
+.icon {
+  margin: 1rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+ul li a {
+  text-decoration: none;
+}
+ul li a:hover {
+  color: #2a8ded;
+}
+
+.service-ventas i {
+  color: #0d9dda;
+}
+
+.service-commerce i {
+  color: #3ba654;
+}
+
+.service-marketing i {
+  color: #dd7a01;
+}
+
+.service-atencion-cliente i {
+  color: #e26e8c;
+}
