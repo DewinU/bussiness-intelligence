@@ -25,7 +25,7 @@ body {
 }
 
 .navbar {
-  background-image: url("../img/banner-navbar.jpg");
+  background-image: url("./../img/banner-navbar.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -64,7 +64,7 @@ body {
 
 .about {
   background: linear-gradient(rgba(0, 0, 0, 0.4), transparent),
-    url("../img/banner-about.jpg");
+    url("./../img/banner-about.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
