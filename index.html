@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="ISO-8859-1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <title>Pinolero CRM - Inicio</title>
+    <link rel="stylesheet" href="./css/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
+    <link rel="shortcut icon" href="./img/icon.ico" type="image/x-icon" />
     <script
       src="https://kit.fontawesome.com/e923e72267.js"
       crossorigin="anonymous"
@@ -22,13 +23,17 @@
     <main class="main">
       <section class="navbar">
         <nav class="navbar-container">
-          <a href="#faq">Pinolero CRM</a>
+          <a class="navbar-inicio" href="#faq">Pinolero CRM</a>
           <ul>
             <li><a href="#faq">Inicio</a></li>
             <li><a href="#cookies-policy">Sobre nosotros</a></li>
             <li><a href="#terms-of-services">Tarifas</a></li>
             <li><a href="#support">Servicios</a></li>
           </ul>
+          <div class="navbar-user">
+            <a href="./src/login.html">Iniciar Sesión</a>
+            <a href="./src/register.html">Registrase</a>
+          </div>
         </nav>
         <h1>Administra tus negocio con Pinolero CRM</h1>
       </section>
@@ -45,10 +50,10 @@
         </div>
       </section>
 
-      <section class="services">
+      <section class="card darker">
         <h2>Services</h2>
-        <section class="services-container">
-          <div class="service ventas">
+        <section class="card-container">
+          <div class="card-item ventas">
             <i class="fa-solid fa-chart-line services-icon"></i>
             <h3>Ventas</h3>
             <p>
@@ -58,7 +63,7 @@
               perferendis, deleniti distinctio repellendus officia odio illo.
             </p>
           </div>
-          <div class="service atencion-cliente">
+          <div class="card-item atencion-cliente">
             <i class="fa-solid fa-heart services-icon"></i>
             <h3>Atencion al cliente</h3>
             <p>
@@ -68,7 +73,7 @@
               perferendis, deleniti distinctio repellendus officia odio illo.
             </p>
           </div>
-          <div class="service marketing">
+          <div class="card-item marketing">
             <i class="fa-solid fa-magnifying-glass-dollar services-icon"></i>
             <h3>Marketing</h3>
             <p>
@@ -78,7 +83,7 @@
               perferendis, deleniti distinctio repellendus officia odio illo.
             </p>
           </div>
-          <div class="service commerce">
+          <div class="card-item commerce">
             <i class="fa-solid fa-cart-shopping services-icon"></i>
             <h3>e-Commerce</h3>
             <p>
@@ -91,12 +96,12 @@
         </section>
       </section>
 
-      <section class="why">
+      <section class="card gray">
         <h2 class="why-tittle">¿Porqué Pinolero CRM?</h2>
-        <div class="why-container">
-          <div class="why-card 1">
+        <div class="card-container">
+          <div class="card-item 1">
             <i class="fa-solid fa-computer"></i>
-            <h4>Sistemas Eficientes</h4>
+            <h3>Sistemas Eficientes</h3>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
               aliquam adipisci, rerum quisquam, deleniti distinctio quas libero
@@ -104,9 +109,9 @@
               Animi, libero ratione!
             </p>
           </div>
-          <div class="why-card 2">
+          <div class="card-item 2">
             <i class="fa-solid fa-comment"></i>
-            <h4>Sistemas Eficientes</h4>
+            <h3>Sistemas Eficientes</h3>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
               aliquam adipisci, rerum quisquam, deleniti distinctio quas libero
@@ -115,9 +120,9 @@
             </p>
           </div>
 
-          <div class="why-card 3">
+          <div class="card-item 3">
             <i class="fa-solid fa-comment"></i>
-            <h4>Sistemas Eficientes</h4>
+            <h3>Sistemas Eficientes</h3>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
               aliquam adipisci, rerum quisquam, deleniti distinctio quas libero
@@ -169,43 +174,63 @@
       </section>
 
       <footer class="footer">
-        <div class="column-about">
-          <h3>Pinoleros CRM</h3>
-          <div class="social">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-youtube"></i>
-            <i class="fa-brands fa-whatsapp"></i>
+        <div class="footer-columns">
+          <div class="column-about">
+            <h3>Pinoleros CRM</h3>
+            <div class="social">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <img class="icon" src="./img/icon.png" />
           </div>
-          <img class="icon" src="./img/icon.png" />
-        </div>
-        <div class="column-links">
-          <h3>Links</h3>
-          <ul>
-            <li><a href="#faq">Inicio</a></li>
-            <li><a href="#cookies-policy">Sobre nosotros</a></li>
-            <li><a href="#terms-of-services">Tarifas</a></li>
-            <li><a href="#support">Servicios</a></li>
-          </ul>
-        </div>
-        <div class="column-location">
-          <h3>Ubicación</h3>
-          <div class="mapouter">
-            <div class="gmap_canvas">
-              <iframe
-                width="500"
-                height="150"
-                id="gmap_canvas"
-                src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                frameborder="0"
-                scrolling="no"
-                marginheight="0"
-                marginwidth="0"
-              ></iframe>
+          <div class="column-links">
+            <h3>Links</h3>
+            <ul>
+              <li><a href="#faq">Inicio</a></li>
+              <li><a href="#cookies-policy">Sobre nosotros</a></li>
+              <li><a href="#terms-of-services">Tarifas</a></li>
+              <li><a href="#support">Servicios</a></li>
+            </ul>
+          </div>
+          <div class="column-location">
+            <h3>Ubicación</h3>
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe
+                  class="gmap_iframe"
+                  width="100%"
+                  frameborder="0"
+                  scrolling="no"
+                  marginheight="0"
+                  marginwidth="0"
+                  src="https://maps.google.com/maps?width=450&amp;height=200&amp;hl=en&amp;q=Universidad Nacional de Ingeniería&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                ></iframe
+                ><a href="https://mcpepro.com/">Minecraft Download</a>
+              </div>
+              <style>
+                .mapouter {
+                  position: relative;
+                  text-align: right;
+                  width: 100%;
+                  height: 200px;
+                }
+                .gmap_canvas {
+                  overflow: hidden;
+                  background: none !important;
+                  width: 100%;
+                  height: 200px;
+                }
+                .gmap_iframe {
+                  height: 200px !important;
+                }
+              </style>
             </div>
           </div>
         </div>
+        <p>@pinolero crm. All rights reserved.</p>
       </footer>
     </main>
   </body>
