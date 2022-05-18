@@ -206,7 +206,7 @@ html {
 }
 
 .footer-columns {
-  padding: 50px 0;
+  padding: 40px 0;
   color: white;
   width: 100%;
   height: fit-content;
@@ -293,6 +293,6 @@ html {
   }
 
   .about-image{
-    width: 400px;
+    width: 300px;
   }
 }
