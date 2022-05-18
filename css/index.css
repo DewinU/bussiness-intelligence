@@ -83,6 +83,7 @@ html {
   font-size: 2rem;
 }
 
+
 .about {
   padding: 100px 0;
   background-image: url("./../img/banner-about.jpg");
@@ -108,11 +109,15 @@ html {
 }
 
 .about-container p {
-  padding: 0px 50px;
-  background-color: white;
   font-size: 2rem;
-  width: 500px;
+  text-align: center;
+  display: flex;
+  padding: 10px 40px;
+  max-width: 350px;
+  background-color: #fff;
   border-radius: 7%;
+  justify-content: center;
+  align-items: center;
 }
 
 .gray {
