@@ -19,6 +19,7 @@ h3 {
 html {
   overflow-x: hidden;
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 .navbar {
@@ -66,6 +67,7 @@ html {
 
 .navbar ul {
   display: flex;
+  margin-right: 50px;
 }
 
 .navbar-user {
@@ -135,16 +137,15 @@ html {
 }
 
 .card-container {
-  width: 80%;
+  width: 90%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
-  row-gap: 10rem;
-  column-gap: 4rem;
+  row-gap: 2rem;
 }
 
 .card-item {
-  padding: 10px 50px;
+  padding: 10px 40px;
   max-width: 350px;
   background-color: #fff;
   border-radius: 7%;
@@ -281,6 +282,7 @@ html {
   }
 
   .navbar ul {
+    margin-right: 0px;
     flex-direction: column;
   }
 
