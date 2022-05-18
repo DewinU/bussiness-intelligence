@@ -97,6 +97,7 @@ html {
 }
 
 .about-container {
+  margin: 0px 50px;
   display: flex;
   justify-content: center;
   color: black;
@@ -289,5 +290,9 @@ html {
 
   .nav-menu.active a {
     color: white !important;
+  }
+
+  .about-image{
+    width: 400px;
   }
 }
